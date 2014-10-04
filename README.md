@@ -1,7 +1,7 @@
 mbtiles-mapper
 ==============
 
-A client-side [mbitles](https://github.com/mapbox/mbtiles-spec) mapper for mbtiles uncompressed file.
+A client-side [mbtiles](https://github.com/mapbox/mbtiles-spec) mapper for mbtiles uncompressed file.
 Supports utfgrid and reads all metadata created by [Tilemil](https://www.mapbox.com/tilemill/).
 
 Usage
