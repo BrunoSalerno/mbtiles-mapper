@@ -9,7 +9,7 @@ Usage
 
 * Git clone this repository
 
-* Uncompress your mbtiles file using [mbutil](https://github.com/mapbox/mbutil):
+* Uncompress your mbtiles file using [mbutil](https://github.com/mapbox/mbutil) with the `--grid_callback=""` option:
 
 ```
 mb-util --grid_callback="" your_file.mbtiles destination_folder
@@ -17,7 +17,7 @@ mb-util --grid_callback="" your_file.mbtiles destination_folder
 
 * Modify `tiles_path` option in `config.json` with the destination folder path
 
-* Start a static server to server your map. For example, with [http-server](https://www.npmjs.org/package/http-server), go to your map directory and run:
+* Start a static server to serve your map. For example, with [http-server](https://www.npmjs.org/package/http-server), go to your map directory and run:
 
 ```
 http-server ./
@@ -33,7 +33,7 @@ Libraries
 
 In the `lib` folder there are the needed libraries:
 
-* Jquery
+* [Jquery](http://jquery.com/)
 * [Leaflet](https://github.com/Leaflet/Leaflet)
 * [utfgrid.leaflet](https://github.com/danzel/Leaflet.utfgrid)
 
