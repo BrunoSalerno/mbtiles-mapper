@@ -1,0 +1,115 @@
+* {
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:12px;
+    line-height: 20px;
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ed1c24;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #08c;
+    text-decoration: underline;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+#map {
+    cursor:default;
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
+
+.legend {
+    padding:10px;
+
+    position:absolute;
+    bottom:4%;
+    right:1%;
+    height:auto;
+
+    background-color:#f7f7f7;
+    border-radius: 2px;
+
+    box-shadow: 0 0 1px #000000;
+    -webkit-box-shadow: 0 0 1px #000000;
+    -moz-box-shadow: 0 0 1px #000000;
+}
+
+.teaser {
+    display:none;
+
+    padding:10px;
+
+    position:absolute;
+    top:4%;
+    right:1%;
+    width:230px;
+    height:auto;
+
+    background-color:#f7f7f7;
+    border-radius: 2px;
+
+    box-shadow: 0 0 1px #000000;
+    -webkit-box-shadow: 0 0 1px #000000;
+    -moz-box-shadow: 0 0 1px #000000;
+}
+
+.full {
+    display:none;
+
+    padding:10px;
+
+    position:absolute;
+    top:4%;
+    right:1%;
+    width:230px;
+    height:auto;
+
+    background-color:#f7f7f7;
+    border-radius: 2px;
+
+    box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+}
+
+.legend .title {
+    padding-left:5px;
+    font-weight: bold;
+    padding-bottom:2px;
+}
+
+.legend .item{
+    clear:both;
+    padding-left:15px;
+    padding-top: 2px;
+}
+
+.legend .item .color{
+    float:left;width:20px;height:20px;
+}
+
+.legend .item .text{
+    float:left;margin-left:5px;
+}
+
+.legend .source{
+    clear:both;
+    padding: 2px 10px 0 5px;
+}
+
+

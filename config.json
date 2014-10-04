@@ -1,0 +1,15 @@
+{
+	"view":{
+		"zoom":13,
+		"min_zoom":null,
+		"max_zoom":null,
+		"center": {
+			"lat": -34.6125221074,
+			"lon": -58.4435123169
+		},
+		"bounds":null
+	},
+	"tiles_path":"tiles",
+	"baselayer_path":"http://a.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png",
+	"use_mbtiles_legend":true
+}
