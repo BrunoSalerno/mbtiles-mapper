@@ -25,6 +25,8 @@ http-server ./
 
 * So you have your map in `http://localhost:8080`
 
+Options
+-------
 
 Tiles path can be specified with params: `?tiles=path_to_tiles`.
 
