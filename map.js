@@ -65,7 +65,7 @@ function mouseout_handler(e) {
 
 function click_handler(e) {
   if (!template.full) {
-    window.open(replace_attributes(template.location, e.data));
+    if (e && e.data) window.open(replace_attributes(template.location, e.data));
   } else {
     $(".teaser").hide().empty();
     $(".full").html(replace_attributes(template.full, e.data)).show().unbind().click(function(){

@@ -25,6 +25,7 @@ http-server ./
 
 * So you have your map in `http://localhost:8080`
 
+
 Tiles path can be specified with params: `?tiles=path_to_tiles`.
 
 Options can be modified in `config.json`. The `use_mbtiles_legend` option allows you to toggle between Tilemil generated legend and the one
