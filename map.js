@@ -86,7 +86,11 @@ function init() {
     useJsonP: false
   });
 
-  var map = L.map('map')
+  var options= {
+    attributionControl:false
+  }
+
+  var map = L.map('map',options)
   .addLayer(baselayer)
   .addLayer(tile)
   .addLayer(utfgrid);

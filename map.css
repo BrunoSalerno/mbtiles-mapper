@@ -37,8 +37,8 @@ body {
     padding:10px;
 
     position:absolute;
-    bottom:4%;
-    right:1%;
+    bottom:15px;
+    right:15px;
     height:auto;
 
     background-color:#f7f7f7;
@@ -55,8 +55,8 @@ body {
     padding:10px;
 
     position:absolute;
-    top:4%;
-    right:1%;
+    top:15px;
+    right:15px;
     width:230px;
     height:auto;
 
