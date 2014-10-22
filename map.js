@@ -14,6 +14,8 @@ function replace_attributes(str,data) {
 function load_config(callback){
 	$.getJSON("config.json", function(json) {
 		config=json;
+    tiles_from_params=load_params().tiles_path;
+    if (tiles_from_params) config.tiles_path = tiles_from_params;
 		if (typeof callback==='function') callback();
 	});
 }
