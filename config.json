@@ -11,5 +11,6 @@
 	},
 	"tiles_path":"tiles",
 	"baselayer_path":"http://a.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png",
-	"use_mbtiles_legend":true
+	"use_mbtiles_legend":true,
+    "title":""
 }
