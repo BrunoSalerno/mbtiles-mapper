@@ -10,7 +10,10 @@
 		"bounds":null
 	},
 	"tiles_path":"tiles",
-	"baselayer_path":"http://a.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png",
+  "baselayer":{
+    "path":"http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png",
+    "attribution":"Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA."
+  },
 	"use_mbtiles_legend":true,
-    "title":""
+  "title":""
 }

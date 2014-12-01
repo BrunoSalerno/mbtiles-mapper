@@ -33,7 +33,9 @@ function MapClass(config){
     }
 
     (function init() {
-      var baselayer=L.tileLayer(config.baselayer_path);
+      var baselayer=L.tileLayer(config.baselayer.path,{
+        attribution:config.baselayer.attribution
+      });
 
       var tile=L.tileLayer(config.tiles_path + '/{z}/{x}/{y}.png', {
         maxZoom: 16,
@@ -45,8 +47,8 @@ function MapClass(config){
       });
 
       var options= {
-        attributionControl:false
-      }
+        attributionControl:true
+      };
 
       var map = new L.map('map',options)
       .addLayer(baselayer)
