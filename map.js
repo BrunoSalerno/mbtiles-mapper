@@ -55,11 +55,11 @@ function MapClass(config){
       .addLayer(tile)
       .addLayer(utfgrid);
 
-      if (!config.view.bounds){
-        map.setView([config.view.center.lat, config.view.center.lon], config.view.zoom)
-      } else {
-        map.fitBounds(config.view.bounds);
-      }
+      //if (!config.view.bounds){
+      map.setView([config.view.center.lat, config.view.center.lon], config.view.zoom);
+      //} else {
+      //  map.fitBounds(config.view.bounds);
+      //}
 
       map.minZoom=config.view.min_zoom;
       map.maxZoom=config.view.max_zoom;
