@@ -14,7 +14,8 @@ function MapClass(config){
     }
 
     function mouseover_handler(e) {
-      if (!$(".full").is(":visible")) $(".teaser").html(replace_attributes(config.template.teaser, e.data)).show();
+      var teaser = replace_attributes(config.template.teaser, e.data);
+      if (teaser && !$(".full").is(":visible")) $(".teaser").html(teaser).show();
     }
 
     function mouseout_handler(e) {
