@@ -52,9 +52,9 @@
             }
 
             var metadata_template=json.template;
-            config.template.location = metadata_template.match("{{#__location__}}(.*){{/__location__}}")[1];
-            config.template.teaser = metadata_template.match("{{#__teaser__}}(.*){{/__teaser__}}")[1];
-            config.template.full = metadata_template.match("{{#__full__}}(.*){{/__full__}}")[1];
+            config.template.location = (metadata_template.match("{{#__location__}}(.*){{/__location__}}"))? metadata_template.match("{{#__location__}}(.*){{/__location__}}")[1] : '';
+            config.template.teaser = (metadata_template.match("{{#__teaser__}}(.*){{/__teaser__}}"))? metadata_template.match("{{#__teaser__}}(.*){{/__teaser__}}")[1] : '' ;
+            config.template.full = (metadata_template.match("{{#__full__}}(.*){{/__full__}}"))? metadata_template.match("{{#__full__}}(.*){{/__full__}}")[1] : '';
 
             if (config.use_mbtiles_legend && json.legend) $(".legend").html(json.legend);
 
